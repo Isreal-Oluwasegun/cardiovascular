@@ -22,7 +22,7 @@ cholesterol = st.sidebar.selectbox("Cholesterol Level", [1, 2, 3])  # categorica
 glucose = st.sidebar.selectbox("Glucose Level", [1, 2, 3])          # categorical coding
 smoke = st.sidebar.selectbox("Smoker", ["No", "Yes"])
 alcohol = st.sidebar.selectbox("Alcohol Intake", ["No", "Yes"])
-bmi = st.sidebar.number_input("BMI", min_value=10.0, max_value=60.0, value=25.0)
+bmi = st.sidebar.number_input("bmi", min_value=10.0, max_value=60.0, value=25.0)
 
 # Convert inputs to numeric features
 gender_val = 1 if gender == "Male" else 0
